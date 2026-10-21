@@ -3,7 +3,7 @@
 Sitio oficial del encuentro Parche Dev 2026, construido solo con HTML semántico.
 Reto individual del Módulo 1 · HTML y CSS, RIWI.
 
-Sitio publicado: https://TU-USUARIO.github.io/parche-dev/
+Sitio publicado: https://samthekiller17.github.io/Parche-devRiwi/
 
 ## Páginas
 
@@ -30,4 +30,4 @@ Sitio publicado: https://TU-USUARIO.github.io/parche-dev/
 
 ## Hecho por
 
-Tu nombre · [GitHub](https://github.com/TU-USUARIO)
+Samuel Andres Patiño Perez · [GitHub](https://github.com/samthekiller17)
