@@ -34,5 +34,6 @@ Samuel Andres Patiño Perez · [GitHub](https://github.com/samthekiller17)
 
 ## Captura de pantalla de resultados del Lighthouse
 
-<img width="1910" height="992" alt="image" src="https://github.com/user-attachments/assets/f3d97f3e-ae9b-49e1-a7a3-ce0d1ab049e1" />
+<img width="1916" height="993" alt="image" src="https://github.com/user-attachments/assets/cb63e5c6-dc61-4ce0-9c7b-a3e83d3bc787" />
+
 
