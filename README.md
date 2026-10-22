@@ -31,3 +31,8 @@ Sitio publicado: https://samthekiller17.github.io/Parche-devRiwi/
 ## Hecho por
 
 Samuel Andres Patiño Perez · [GitHub](https://github.com/samthekiller17)
+
+## Captura de pantalla de resultados del Lighthouse
+
+<img width="1910" height="992" alt="image" src="https://github.com/user-attachments/assets/f3d97f3e-ae9b-49e1-a7a3-ce0d1ab049e1" />
+
