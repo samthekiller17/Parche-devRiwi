@@ -40,7 +40,7 @@ Se codifican para que la URL sea válida:
 - Qué pasa con los campos que no llenaste:
 Depende del tipo de campo:
 
-    Los campos de texto o los "<select>" vacíos sí aparecen, pero sin valor: comentarios=.
+    Los campos de texto o los '<select>' vacíos sí aparecen, pero sin valor: comentarios=.
     Los checkboxes sin marcar y los radios sin elegir no aparecen, como si no existieran. Si no marcas el taller, taller_bot no está en la URL.
 
 - Por qué un formulario con contraseñas nunca debería usar method="get": 
