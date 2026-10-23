@@ -33,26 +33,26 @@ Sitio publicado: https://samthekiller17.github.io/Parche-devRiwi/
 - Cómo se ven los espacios, las tildes y la arroba: 
 Se codifican para que la URL sea válida:
 
-El espacio se vuelve + (a veces %20).
-La tilde de «é» pasa a %C3%A9, que es su código en UTF-8. Cada letra con tilde o la «ñ» se convierte en una secuencia así.
-La arroba @ se convierte en %40.
+    El espacio se vuelve + (a veces %20).
+    La tilde de «é» pasa a %C3%A9, que es su código en UTF-8. Cada letra con tilde o la «ñ» se convierte en una secuencia así.
+    La arroba @ se convierte en %40.
 
 - Qué pasa con los campos que no llenaste:
 Depende del tipo de campo:
 
-Los campos de texto o los <select> vacíos sí aparecen, pero sin valor: comentarios=.
-Los checkboxes sin marcar y los radios sin elegir no aparecen, como si no existieran. Si no marcas el taller, taller_bot no está en la URL.
+    Los campos de texto o los <select> vacíos sí aparecen, pero sin valor: comentarios=.
+    Los checkboxes sin marcar y los radios sin elegir no aparecen, como si no existieran. Si no marcas el taller, taller_bot no está en la URL.
 
 - Por qué un formulario con contraseñas nunca debería usar method="get": 
 Porque los datos viajan dentro de la URL, y las URLs no son privadas:
 
-Quedan en el historial del navegador y en los marcadores.
-Quedan en los registros (logs) del servidor y de cualquier proxy intermedio.
-Cualquiera que mire la pantalla las ve.
-Pueden filtrarse a otros sitios por el encabezado Referer si el usuario hace clic en un enlace externo.
-Se pueden compartir sin querer al copiar y pegar el enlace.
+    Quedan en el historial del navegador y en los marcadores.
+    Quedan en los registros (logs) del servidor y de cualquier proxy intermedio.
+    Cualquiera que mire la pantalla las ve.
+    Pueden filtrarse a otros sitios por el encabezado Referer si el usuario hace clic en un enlace externo.
+    Se pueden compartir sin querer al copiar y pegar el enlace.
 
-Con method="post", los datos van en el cuerpo de la petición y no en la URL. Aun así, para contraseñas hace falta HTTPS. GET se reserva para consultas que no cambian nada, como búsquedas y filtros.
+    Con method="post", los datos van en el cuerpo de la petición y no en la URL. Aun así, para contraseñas hace falta HTTPS. GET se reserva para consultas que no cambian nada, como búsquedas y filtros.
 
 ## Lo que aprendí
 
